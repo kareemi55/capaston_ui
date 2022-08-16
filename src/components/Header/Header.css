@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.header{
+   width: 100%;
+   height: 80vh; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.header-content{
+padding: 20px;
+width: 80%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.howWorkBtn{
+    background-color: #FB8E0B;
+    width: 300px;
+    font-size: 28px;
+    border-radius: 7px;
+    text-align: center;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 830px) {
+    .header{
+        height: auto; 
+       
+     }
+    .header-content{
+        padding: 20px;
+        width: 80%;
+        display: flex;
+       flex-direction: column;
+        }
+    .tCont, .tCont > ol{
+        text-align: center;
+    }
+}

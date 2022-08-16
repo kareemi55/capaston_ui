@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.profile{
+  /* background-color: darkgreen; */
+  /* padding: 18px; */
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.headCont{
+  width: 100%;
+  height: 13vh;
+  background-color: #FB8E0B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headCont > h1 {
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+
+}
+.mainCont1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+.bio{
+  color:black;
+  width: 45%;
+  /* background-color: blue; */
+  padding:25px;
+  border: 3px solid #FB8E0B;
+  border-top-left-radius: 8%;
+  border-bottom-right-radius: 8%;
+}
+.bio > p{
+ margin-bottom: 25px;
+ color: #FB8E0B;
+ font-size: 19px;
+}
+.input {
+  margin-top: 20px;
+  /* margin-left: 20px; */
+  /* background-color: red; */
+}
+
+
+.imgCont{
+  /* background-color: aqua; */
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.proImg{
+  width: 90%;
+  height:auto;
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  border: 3px solid #FB8E0B ;
+}
+.editButton {
+  margin-top: 50px;
+  margin-right: 230px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+}
+
+.editButton > button {
+  border: none;
+  background-color: #FB8E0B ;
+  border-radius: 10%;
+  width: 150px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.editButton > button:hover {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 830px) {
+  .mainCont1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+  }
+  .bio{
+    color:black;
+    width: 80%;
+    text-align: center;
+    
+  }
+ 
+  
+  .imgCont{
+    /* background-color: aqua; */
+    order: -1;
+  }
+  .imgCont{
+    /* background-color: aqua; */
+    width: 70%;
+   margin-top: 30px;
+   margin-bottom: 30px;
+  }
+  .editButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+}

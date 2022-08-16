@@ -1,0 +1,170 @@
+.update-user {
+  width: 100%;
+  height: auto;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 111;
+  position: absolute;
+  top: 120px;
+  padding-top: 10px;
+  padding-bottom:30px;
+  
+}
+
+.update-user-popup {
+  width: 60%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  flex-direction: column;
+  border: 5px solid black;
+}
+
+.close-button {
+  /* color: wheat; */
+  font-size: 24px;
+  width: 40px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 20px;
+  background-color: #FB8E0B;
+  color: white;
+  font-weight: bold;
+  }
+  .close-button:hover {
+   opacity: 0.9;
+    }
+  
+.label {
+  width: 80px;
+}
+
+
+.mainContainer{
+display: flex;
+width: 90%;
+justify-content: center;
+align-items: center;
+/* background-color: brown; */
+margin-top: 35px;
+}
+
+.user-update-form{
+/* background-color: blueviolet; */
+padding: 20px;
+width: 60%;
+}
+.labelTxtArea{
+display: flex;
+align-items: center;
+}
+.formPara{
+  font-size: 22px;
+  color: black;
+}
+.txtInputs{
+  font-size: 20px;
+  height: 38px;
+  width: 60%;
+  padding-left: 10px;
+  margin-left: 30px;
+  outline: none;
+  border: 2px solid  #FB8E0B;
+  border-radius: 6px;
+}
+.textArea{
+  height: 100px;
+}
+.imgContainer{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgContainer > .updateProImg{
+  width: 90%;
+  height: auto;
+}
+ .update-button {
+  /* background-color: blue; */
+  /* align-self: flex-end; */
+  width: 19%;
+  margin-top: 25px;
+  background-color: #FB8E0B;
+  width: 50%;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+.update-button:hover {
+ opacity: 0.9;
+}
+@media screen and (max-width: 830px) {
+
+  .update-user-popup {
+    width: 100%;
+  }
+  .user-update-form{
+    margin-top: 25px;
+    width: 70%;
+    padding-top: 25px;
+    }
+  .mainContainer{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    padding-top: 25px;
+    }
+    .imgContainer{
+      order: -1;
+    }
+}
+    
+
+@media screen and (max-width: 550px) {
+
+  .update-user-popup {
+    width: 100%;
+  }
+  .user-update-form{
+    margin-top: 25px;
+    width: 100%;
+    padding: 0px;
+    }
+  .mainContainer{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+    margin-top: 35px;
+    padding-top: 25px;
+    }
+    .imgContainer{
+      order: -1;
+    }
+    .imgContainer{
+      width: 70%;
+      order: -1;
+    }
+   
+}
+    
